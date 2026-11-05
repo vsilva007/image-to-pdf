@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Images to PDF — Smart Studio</title><desc id="desc">Your images. One document. Browser  /  TypeScript  /  PDF</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101828"/><stop offset="1" stop-color="#1d2437"/></linearGradient><linearGradient id="accent"><stop stop-color="#06b6d4"/><stop offset="1" stop-color="#67e8f9"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+<rect x="48" y="48" width="4" height="24" rx="2" fill="#67e8f9"/>
+<g font-family="Arial, Helvetica, sans-serif"><text x="66" y="66" fill="#67e8f9" font-size="16" letter-spacing="3">SMART STUDIO / OPEN SOURCE</text>
+<text x="48" y="153" fill="#ffffff" font-size="58" font-weight="700">Images to PDF</text>
+<text x="50" y="205" fill="#cbd5e1" font-size="25">Your images. One document.</text>
+<text x="50" y="300" fill="#67e8f9" font-size="16" letter-spacing="1">Browser  /  TypeScript  /  PDF</text></g>
+<g transform="translate(875 65)" fill="#172d3d" stroke="url(#accent)" stroke-width="3"><rect x="0" y="0" width="150" height="195" rx="14" transform="rotate(-10 75 100)"/><rect x="38" y="22" width="150" height="195" rx="14"/><rect x="60" y="48" width="106" height="85" rx="8"/><circle cx="137" cy="69" r="9"/><path d="m65 123 32-35 22 23 16-14 26 26M60 160h100m-100 24h65" fill="none"/></g>
+</svg>

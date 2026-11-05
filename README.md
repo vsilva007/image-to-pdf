@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/readme-banner.svg" alt="Images to PDF — a browser-based converter adapted by Smart Studio" width="1200"></p>
+
 <div align="center">
 
 # Images to PDF
@@ -7,11 +9,15 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-No uploads. No accounts. No tracking. Your images stay on your device.
+Image conversion runs in your browser. No account is required.
 
 </div>
+
+<p align="center"><a href="#how-it-works">How it works</a> · <a href="#run-locally">Quick start</a> · <a href="README-Docker.md">Docker</a> · <a href="#credits-and-license">Credits &amp; license</a></p>
+
+Adapted by [Smart Studio](https://smartstudio.dev) from [metehandemir/image-to-pdf](https://github.com/metehandemir/image-to-pdf). Original authorship and MIT attribution are preserved in [NOTICE.md](NOTICE.md).
 
 ---
 
@@ -40,22 +46,23 @@ never sent to a server.
 3. Select **Convert to PDF** to generate and download `converted.pdf`.
 
 > [!NOTE]
-> The application processes files in browser memory. Nothing is uploaded or
-> stored remotely.
+> The converter reads images in browser memory and generates the PDF locally.
+> This describes image processing, not the hosting provider’s technical logs or
+> every network request made to load the application.
 
 ## Run locally
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/) 20 or newer
+- [Node.js](https://nodejs.org/) 20.9 or newer
 - npm
 
 ### Development
 
 ```bash
-git clone https://github.com/metehandemir/image-to-pdf.git
+git clone https://github.com/vsilva007/image-to-pdf.git
 cd image-to-pdf
-npm install
+npm ci
 npm run dev
 ```
 
@@ -108,6 +115,8 @@ npm run build
 - [jsPDF documentation](https://github.com/parallax/jsPDF#readme)
 - [Docker setup guide](README-Docker.md)
 
-## License
+## Credits and license
 
-Released under the MIT License.
+Released under the [MIT License](LICENSE). Original application by [metehandemir](https://github.com/metehandemir/image-to-pdf); Docker workflows, documentation and adaptation by Victor Silva (Smart Studio). See [NOTICE.md](NOTICE.md) for the upstream license reference. Dependencies retain their own licenses.
+
+<p align="center"><strong>Smart Studio</strong><br><a href="https://smartstudio.dev/open-source">Explore our open-source tools</a></p>
